@@ -8,9 +8,13 @@
 ### How to run:
 
 - `npm i`
+- `npm run start`
 - `npm run test`
 
+> Please note: Make sure the app is running before starting tests
+
 ###### For debug moge use:
+
 - `npm run test:debug`
 
 ------------------------
