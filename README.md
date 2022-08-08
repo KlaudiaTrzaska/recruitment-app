@@ -1,3 +1,20 @@
+# Assignment for AVSystems recruitment process
+
+### Requirements
+
+- nodejs version 14 or higher https://nodejs.org/en/
+- chrome browser version 103.0.5060.114 or higher
+
+### How to run:
+
+- `npm i`
+- `npm run test`
+
+###### For debug moge use:
+- `npm run test:debug`
+
+------------------------
+
 # RecruitmentApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
