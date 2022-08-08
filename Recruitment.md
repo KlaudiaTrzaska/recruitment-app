@@ -58,7 +58,7 @@ Testing front end validation of the form with valid and negative scenarios
 [./cypress/e2e/recruitmentApp/*](cypress/e2e/recruitmentApp/form-validation.cy.ts)
 ##### Main Page - resources
 First part of main page components, verify external links
-[./cypress/e2e/recruitmentApp/*](cypress/e2e/recruitmentApp/MminPage-resources.cy.ts)
+[./cypress/e2e/recruitmentApp/*](cypress/e2e/recruitmentApp/mainPage-resources.cy.ts)
 ##### Main Page - next steps
 Second part of main page components, verify dynamic text substitution
 [./cypress/e2e/recruitmentApp/*](cypress/e2e/recruitmentApp/mainPage-nextSteps.cy.ts)
