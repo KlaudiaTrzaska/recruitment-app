@@ -2,8 +2,8 @@
 - - [Requirements](#requirements)
 - - [How to run](#how-to-run)
 - [Project setup](#test-project-setup)
-- - [How to run](#tests)
-- - [How to run](#page-objects)
+- - [Tests](#tests)
+- - [Page objects](#page-objects)
 
 
 # Assignment for AVSystems recruitment process
@@ -33,6 +33,7 @@ Project has been set up using Cypress, Typescript using basic page object patter
 Some validation has been moved inside Page Object classes due to cypress limitation
 > `within()` scope is closed and it didnt make sense to work around it's limitation
 see [FormPage.ts](cypress/pageObjects/FormPage.ts) `shouldHaveAlertByLabel`
+> see official documentation on `within()` (docs.cypress.io/api/commands/within)(https://docs.cypress.io/api/commands/within)
 
 ### Structure
 - cypress
@@ -57,7 +58,7 @@ Testing front end validation of the form with valid and negative scenarios
 [./cypress/e2e/recruitmentApp/*](cypress/e2e/recruitmentApp/form-validation.cy.ts)
 ##### Main Page - resources
 First part of main page components, verify external links
-[./cypress/e2e/recruitmentApp/*](cypress/e2e/recruitmentApp/MainPage-resources.cy.ts)
+[./cypress/e2e/recruitmentApp/*](cypress/e2e/recruitmentApp/MminPage-resources.cy.ts)
 ##### Main Page - next steps
 Second part of main page components, verify dynamic text substitution
 [./cypress/e2e/recruitmentApp/*](cypress/e2e/recruitmentApp/mainPage-nextSteps.cy.ts)
