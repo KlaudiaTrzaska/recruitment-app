@@ -1,9 +1,9 @@
-import resultForm from 'cypress/pageObjects/resultForm';
+import resultForm from 'cypress/pageObjects/ResultForm';
 import FormPage from '../../pageObjects/FormPage';
 
 describe('Form - validation', () => {
     before(() => {
-      FormPage.visitFormPage();
+      FormPage.visitPage();
     })
 
     describe('[negative], Negative scenarios', () => {

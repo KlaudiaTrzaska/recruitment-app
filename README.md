@@ -13,7 +13,7 @@
 
 > Please note: Make sure the app is running before starting tests
 
-###### For debug moge use:
+###### For debug mode use:
 
 - `npm run test:debug`
 

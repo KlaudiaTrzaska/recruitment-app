@@ -3,6 +3,12 @@ import { BasePage } from "./BasePage";
 
 class FormPage extends BasePage {
 
+    protected override extension = "form";
+
+    override visitPage(): void {
+        super.visitPage();
+    }
+
     get nameInput() {
         return cy.get("input#name");
     }

@@ -1,8 +1,8 @@
-import resultForm from 'cypress/pageObjects/resultForm';
+import resultForm from 'cypress/pageObjects/ResultForm';
 import FormPage from '../../pageObjects/FormPage';
 describe('Form - happy path', () => {
     before(() => {
-      FormPage.visitFormPage();
+      FormPage.visitPage();
 
       FormPage.nameInput.clear().type("Klaudia");
       FormPage.alterEgoInput.clear().type("Hungry Cat");
